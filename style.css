@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: Figtree, sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 270px;
+    height: 370px;
+    padding: 18px;
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 15px;
+    box-shadow: 7px 7px 0px 0px hsl(0, 0%, 7%);
+}
+
+.hero-img {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+p {
+    width: 3rem;
+    margin: 3px;
+    padding: 7px;
+    border-radius: 2px;
+}
+
+h2 {
+    margin: 0px;
+    padding: 3px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+h4 {
+    margin: 0px;
+    padding: 3px;
+    font-weight: 1;
+}
+
+.instructor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 115px;
+}
+
+.pfp {
+    width: 30px;
+    height: 30px;
+}
+
+.greyed {
+    color: hsl(0, 0%, 42%);
+}
+
+.minor-text {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.minor-weight {
+    font-weight: 800;
+}
+
+.yellow-back {
+    background-color: hsl(47, 88%, 63%);
+}
